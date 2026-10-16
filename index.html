@@ -19,12 +19,27 @@
       <nav aria-label="主导航">
         <a class="nav-projects" href="#projects">MC Mod</a>
         <button id="motion-toggle" type="button" aria-pressed="false" aria-label="暂停动效">动效：开</button>
-        <a class="github-link" href="https://github.com/ShuangYuu" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="github-link" href="#profiles">我的主页 <span aria-hidden="true">↓</span></a>
       </nav>
     </div>
   </header>
   <main id="main" class="workspace">
     <h1 class="sr-only">ShuangYuu 项目导航</h1>
+    <section id="profiles" class="profiles" aria-labelledby="profiles-title">
+      <div class="column-heading"><h2 id="profiles-title"><span class="heading-marker" aria-hidden="true"></span>我的主页</h2><span class="count">02</span></div>
+      <div class="profile-grid">
+        <a class="profile-card panel" href="https://space.bilibili.com/385203177" target="_blank" rel="noopener noreferrer" aria-label="Bilibili 个人主页（新窗口打开）">
+          <span class="platform-mark" aria-hidden="true">bili</span>
+          <span class="profile-info"><strong>Bilibili</strong><span>个人空间</span></span>
+          <span class="profile-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="profile-card panel" href="https://github.com/ShuangYuu" target="_blank" rel="noopener noreferrer" aria-label="GitHub 个人主页（新窗口打开）">
+          <span class="platform-mark code-mark" aria-hidden="true">&lt;/&gt;</span>
+          <span class="profile-info"><strong>GitHub</strong><span>@ShuangYuu</span></span>
+          <span class="profile-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
     <section id="projects" class="column" aria-labelledby="projects-title">
       <div class="column-heading"><h2 id="projects-title"><span class="heading-marker" aria-hidden="true"></span>MC Mod</h2><span id="project-count" class="count">00</span></div>
       <div id="project-list" class="project-list" aria-live="polite">
